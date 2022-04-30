@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sass.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="https://st1.zoom.us/static/6.1.6144/image/new/ZoomLogo.png" alt="Zoom Logo">
+        <!--<h1>zoom</h1>
+        <ul>
+            
+            <li>solutions</li>
+            <li>plans and pricing</li>
+            <li>contact sales</li>
+            <li>resources</li>
+            
+        </ul>
+
+        <ul>
+            <li>Join</li>
+            <li>Host</li>
+            <li>login</li>
+        </ul>-->
+
+        <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav" role="navigation" aria-label="product information">
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none" class="dropdown mobile-hide" id="solution" aria-haspopup="true">
+            <a id="btnSolutions" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">SOLUTIONS <span class="caret"></span></a>
+            <ul id="solutionsDropdown" class="dropdown-menu first-dropdown">
+            <li role="none" id="first-col-nav" class="mega-menu-4-of-12 first-col">
+            <h4 class="mega-block-title">PRODUCTS</h4>
+            <div class="textwidget">
+            <ul role="list">
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/meetings" data-on-event="send,event,product,click-nav-solutions-meetings,Header Nav Solutions Meetings and Chat">
+            <h3>Meetings</h3>
+            <p>HD video and audio collaboration</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://zoom.us/redirect_marketplace" data-on-event="send,event,product,click-nav-solutions-marketplace,Header Nav Solutions Marketplace">
+            <h3>Marketplace</h3>
+            <p>Integrations and bots to use with Zoom</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/webinar" data-on-event="send,event,product,click-nav-solutions-webinar,Header Nav Solutions Webinars">
+            <h3>Zoom Webinar</h3>
+            <p>Full-featured, easy-to-use, engaging webinars</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/phonesystem" data-on-event="send,event,product,click-nav-solutions-voice,Header Nav Solutions Voice">
+            <h3>Phone System</h3>
+            <p>Enterprise cloud phone system</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/contactcenter" data-on-event="send,event,product,click-nav-solutions-contactcenter,Header Nav Solutions Contact Center">
+            <h3>Contact Center</h3>
+            <p>Omnichannel contact center solution</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://events.zoom.us/?utm_source=web&amp;utm_medium=digital&amp;utm_campaign=&amp;zcid=4694" data-on-event="send,event,product,click-nav-solutions-events,Header Nav Solutions Events">
+            <h3>Events</h3>
+            <p>All-in-one platform to host virtual experiences</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/feature/messaging" data-on-event="send,event,product,click-nav-solutions-chat,Header Nav Solutions Chat">
+            <h3>Chat</h3>
+            <p>Connect your teams and streamline communications</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/en/products/online-whiteboard/?=nocache" data-on-event="send,event,product,click-nav-solutions-whiteboard,Header Nav Solutions Whiteboard">
+            <h3>Whiteboard</h3>
+            <p>Create and collaborate in and out of meetings</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/zoomrooms" data-on-event="send,event,product,click-nav-solutions-rooms,Header Nav Solutions Rooms and Workspaces">
+            <h3>Rooms and Workspaces</h3>
+            <p>Power up your conference rooms with video</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://developers.zoom.us" data-on-event="send,event,product,click-nav-solutions-marketplace,Header Nav Solutions Developer Platform">
+            <h3>Developer Platform</h3>
+            <p>APIs &amp; SDKs to extend and enhance Zoom</p>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li role="none" id="second-col-nav" class="mega-menu-4-of-12 second-col">
+            <h4 class="mega-block-title">INDUSTRIES</h4>
+            <div class="textwidget">
+            <ul role="list">
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/education" data-on-event="send,event,product,click-nav-industries-education,Header Nav Industries Education">
+            <h3>Education</h3>
+            <p>Expand traditional classrooms in the cloud</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/finance" data-on-event="send,event,product,click-nav-industries-finance,Header Nav Industries Finance">
+            <h3>Finance</h3>
+            <p>Improve customer experiences &amp; communications</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/government" data-on-event="send,event,product,click-nav-industries-government,Header Nav Industries Government">
+            <h3>Government</h3>
+            <p>Increase productivity &amp; engagement for all agencies</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/healthcare" data-on-event="send,event,product,click-nav-industries-healthcare,Header Nav Industries Healthcare">
+            <h3>Healthcare</h3>
+            <p>Collaborative telehealth technology &amp; workflows</p>
+            </a>
+            </li>
+            </ul>
+            </div>
+            <div class="textwidget">
+            <hr class="solution-dropdown-divider">
+            </div>
+            <h4 class="mega-block-title">SERVICES</h4>
+            <div class="textwidget">
+            <ul role="list">
+            <li role="none">
+            <a role="menuitem" href="https://explore.zoom.us/global-services" data-on-event="send,event,product,click-nav-services-global-services,Header Nav Services Global Services">
+            <h3>Global Services</h3>
+            <p>Expert consultation, Implementation, &amp; support</p>
+            </a>
+            </li>
+            <li role="none">
+            <a role="menuitem" href="https://zoom.us/hardware-as-a-service" data-on-event="send,event,product,click-nav-services-hardware-as-a-service,Header Nav Services Hardware as a Service">
+            <h3>Hardware as a Service</h3>
+            <p>Flexible subscription plans for hardware</p>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li id="promo-col-nav" class="mega-menu-4-of-12 third-col nav-promo" style="background: url(&quot;https://zoom.us/docs/image/bf-mega-nav.svg&quot;) right bottom / 100% no-repeat; position: absolute; height: 100%; display: inline-block; width: 318px !important;"><div style="padding-left:40px;padding-right:40px;height:85%;border-left:#f2f2f2 1px solid"><p style="text-align:left;margin-top:19px;line-height:1.5;font-weight:600;color:#6b6565;font-size:16px">Supporting a Hybrid-friendly Work Environment</p><p style="text-align:left;line-height:20px;">Explore products and tools for seamless collaboration across office and home working spaces.</p><p style="text-align:left;line-height:2.5;font-weight:600"><a href="https://explore.zoom.us/docs/en-us/hybrid-workforce.html?utm_source=nav&amp;utm_medium=web&amp;utm_campaign=zfwd&amp;zcid=4585">Discover hybrid solutions</a></p></div></li>
+            </ul>
+            </li>
+            <li class="dropdown mobile-products" id="solution" aria-haspopup="true">
+            <a id="btnSolutions" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">PRODUCTS <span class="caret"></span></a>
+            <ul id="solutionsDropdown" class="dropdown-menu mobile-products-nav" style="">
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/meetings" data-on-event="send,event,product,click-nav-solutions-meetings,Header Nav Solutions Meetings and Chat">Meetings</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li><a role="menuitem" href="https://zoom.us/redirect_marketplace" data-on-event="send,event,product,click-nav-solutions-marketplace,Header Nav Solutions Marketplace">Marketplace</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/webinar" data-on-event="send,event,product,click-nav-solutions-webinar,Header Nav Solutions Webinars">Zoom Webinar</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/voice" data-on-event="send,event,product,click-nav-solutions-voice,Header Nav Solutions Voice">Phone System</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a href="https://explore.zoom.us/en/products/contactcenter/">Contact Center</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://events.zoom.us/?utm_source=web&amp;utm_medium=digital&amp;utm_campaign=&amp;zcid=4694" data-on-event="send,event,product,click-nav-solutions-events,Header Nav Solutions Events">Events</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/feature/messaging" data-on-event="send,event,product,click-nav-solutions-chat,Header Nav Solutions Chat">Chat</a></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/en/products/online-whiteboard/?=nocache" data-on-event="send,event,product,click-nav-solutions-whiteboard,Header Nav Solutions Whiteboard">Whiteboard</a></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/zoomrooms" data-on-event="send,event,product,click-nav-solutions-rooms,Header Nav Solutions Rooms and Workspaces">Rooms and Workspaces</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li><a role="menuitem" href="https://developers.zoom.us" data-on-event="send,event,product,click-nav-solutions-marketplace,Header Nav Solutions Developer Platform">Developer Platform</a></li>
+            </ul>
+            </li>
+            <li class="visible-xs divider mobile-hide" role="presentation"></li>
+            <li role="none" class="dropdown mobile-industries" id="solution" aria-haspopup="true">
+            <a id="btnSolutions" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">INDUSTRIES <span class="caret"></span></a>
+            <ul id="solutionsDropdown" class="dropdown-menu" style="">
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/education" data-on-event="send,event,product,click-nav-industries-education,Header Nav Industries Education">Education</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/finance" data-on-event="send,event,product,click-nav-industries-finance,Header Nav Industries Finance">Finance</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/government" data-on-event="send,event,product,click-nav-industries-government,Header Nav Industries Government">Government</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/healthcare" data-on-event="send,event,product,click-nav-industries-healthcare,Header Nav Industries Healthcare">Healthcare</a></li>
+            </ul>
+            </li>
+            <li class="visible-xs divider mobile-hide" role="presentation"></li>
+            <li role="menuitem" class="dropdown mobile-services" id="solution" aria-haspopup="true">
+            <a id="btnSolutions" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">SERVICES<span class="caret"></span></a>
+            <ul id="solutionsDropdown" class="dropdown-menu" style="">
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/global-services" data-on-event="send,event,product,click-nav-services-global-services,Header Nav Services Global Services">Global Services</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://zoom.us/hardware-as-a-service" data-on-event="send,event,product,click-nav-services-hardware-as-a-service,Header Nav Services Hardware as a Service">Hardware as a Service</a></li>
+            </ul>
+            </li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" class="top-pricing" style="text-transform : uppercase;" href="/pricing">Plans &amp; Pricing</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" class="top-contactsales top-sales" style="text-transform : uppercase;" href="https://explore.zoom.us/contactsales">Contact Sales</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="menuitem" class="dropdown new-resources" id="resources" aria-haspopup="true">
+            <a id="btnResources" href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Resources<span class="caret"></span>
+            </a>
+            <div id="resourcesDropdown" class="dropdown-menu" role="menubar">
+            <div class="resourcesDropdown">
+            <div class="main_col first_column">
+            <div class="titleWrapper">
+            <img src="https://explore.zoom.us/media/rm-icon-1.svg" alt="">
+            <h2 class="imgTitle">Explore</h2>
+            </div>
+            <p class="resourceDescription">Discover new ways to use Zoom solutions to power your modern workforce.</p>
+            <div class="sectionLinks">
+            <a role="menuitem" tracking-id="headerBlog" tracking-category="NavHeader" href="https://blog.zoom.us/" onclick="">
+            Zoom Blog</a>
+            <a href="https://explore.zoom.us/en/resource-library/">Resource Library</a>
+            <a role="menuitem" tracking-id="headerWebinars" tracking-category="NavHeader" href="https://zoom.us/events" onclick="">Webinars and Events
+            </a>
+            <a role="menuitem" tracking-id="headerStories" tracking-category="NavHeader" href="https://explore.zoom.us/customer/all" onclick="">Customer Stories
+            </a>
+            </div>
+            </div>
+            <div class="main_col second_column">
+            <div class="titleWrapper">
+            <img src="https://explore.zoom.us/media/rm-icon-2.svg" alt="">
+            <h2 class="imgTitle">Learn</h2>
+            </div>
+            <p class="resourceDescription">Access expert-led tutorials on Zoom products and features.</p>
+            <div class="sectionLinks">
+            <a href="https://learning.zoom.us/learn" target="_blank">Learning Center</a>
+            <a role="menuitem" tracking-id="headerTraining" tracking-category="NavHeader" href="https://learn-zoom.us/live-training" onclick="">
+            Live Training</a>
+            <a role="menuitem" tracking-id="headerTutorials" tracking-category="NavHeader" href="https://support.zoom.us/hc/en-us/articles/206618765-Zoom-Video-Tutorials" onclick="">
+            How-to Videos</a>
+            </div>
+            </div>
+            <div class="main_col third_column">
+            <div class="titleWrapper">
+            <img src="https://explore.zoom.us/media/rm-icon-3.svg" alt="">
+            <h2 class="imgTitle">Connect</h2>
+            </div>
+            <p class="resourceDescription">Network with other Zoom users, and share your own product and industry insights.</p>
+            <div class="sectionLinks">
+            <a href="https://community.zoom.com/">Zoom Community</a>
+            <a href="https://devforum.zoom.us/">Developer Forum</a>
+            <a href="https://mypartnerportal.zoom.us/">Partner Portal</a>
+            </div>
+            </div>
+            <div class="main_col fourth_column">
+            <div class="titleWrapper">
+            <img src="https://explore.zoom.us/media/rm-icon-4.svg" alt="">
+            <h2 class="imgTitle">Support</h2>
+            </div>
+            <p class="resourceDescription">Get documentation on deploying, managing, and using the Zoom platform.</p>
+            <div class="sectionLinks">
+            <a href="https://support.zoom.us/">customer support</a>
+            <a href="https://devsupport.zoom.us/">Developer Support</a>
+            <a href="https://explore.zoom.us/docs/en-us/support-plans.html">Premier Support</a>
+            </div>
+            </div>
+            <div class="articleSection">
+            <div class="articleSubSection">
+            <img src="https://explore.zoom.us/media/rm-blog-1.svg" alt="">
+            <div>
+            <h3>Download Zoom Client</h3>
+            <p>Keep your Zoom client up to date to access the latest features.</p>
+            <a role="menuitem" tracking-id="headerDownload" tracking-category="NavHeader" href="https://zoom.us/download#client_4meeting" onclick="">
+            Download Center</a>
+            </div>
+            </div>
+            <div class="articleSubSection">
+            <img src="https://explore.zoom.us/media/rm-blog-2.svg" alt="">
+            <div>
+            <h3>Zoom Virtual Backgrounds</h3>
+            <p>Download hi-res images and animations to elevate your next Zoom meeting.</p>
+            <a role="menuitem" href="https://zoom.us/virtual-backgrounds" target="_blank">
+            Browse Backgrounds</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" role="navigation" aria-label="meetings">
+            <li role="none"><a role="menuitem" id="btnJoinMeeting" tracking-id="headerMenuJoin" tracking-category="NavHeader" class="hidden-xs" href="https://zoom.us/join" data-on-event="send,event,product,click-nav-joinmeeting,Header Nav Join a Meeting">JOIN</a></li>
+            <li role="none">
+            <div id="dropdown-hostmeeting" class="dropdown hidden-xs" aria-haspopup="true">
+            <a id="btnHostMeeting" data-toggle="dropdown" href="javascript:;" class="hostmeeting" aria-expanded="false" data-on-event="send,event,product,click-nav-hostmeeting,Header Nav Host a Meeting">HOST <span class="caret"></span></a>
+            <ul id="hostMeetingDropdown" class="dropdown-menu">
+            <li role="none">
+            <a role="menuitem" tracking-id="headerMenuHostVideoOFF" tracking-category="NavHeader" href="/start/webmeeting">
+            With Video Off</a>
+            </li>
+            <li role="none">
+            <a role="menuitem" tracking-id="headerMenuHostVideoON" tracking-category="NavHeader" href="/start/videomeeting">
+            With Video On</a>
+            </li>
+            <li role="none">
+            <a role="menuitem" tracking-id="headerMenuScreenShare" tracking-category="NavHeader" href="/start/sharemeeting">
+            Screen Share Only</a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li role="none">
+            <ul class="nav navbar-nav visible-xs" role="menubar">
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://explore.zoom.us/livedemo" data-on-event="send,event,requestdemo,click-nav-requestademo,Header Nav Contact Sales">Request a Demo</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://support.zoom.us/hc/en-us/articles/206175806-Top-Questions" target="_blank" data-on-event="send,event,product,click-nav-FAQ,Header Nav FAQ">FAQ</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="https://support.zoom.us/hc/en-us" target="_blank" data-on-event="send,event,product,click-nav-support,Header Nav Support">Support</a></li>
+            <li class="visible-xs divider" role="presentation"></li>
+            <li role="none"><a role="menuitem" href="tel:1.888.799.9666" class="support-phone" data-on-event="send,event,contact,click-homepage-phone-number,Click Homepage Phone Number"><span class="mobile-phone"></span>1.888.799.9666</a></li>
+            </ul>
+            </li>
+            <li class="visible-xs divider" role="presentation"></li><li class="signin"><a class="link" href="https://zoom.us/signin" data-on-event="send,event,product,click-nav-signin,Header Nav Sign In">SIGN IN</a></li></ul>
+            </div>
+    </nav>
+  <div class="container" role="banner">
+
+    
+
+
+  </div>  
+</body>
+</html>
